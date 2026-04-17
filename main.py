@@ -11,6 +11,7 @@ class TasbihApp(App):
     def build(self):
         self.count = 0  # العداد
         
+        
         # تخطيط التطبيق بشكل عمودي
         layout = BoxLayout(orientation='vertical', padding=50, spacing=20)
         
